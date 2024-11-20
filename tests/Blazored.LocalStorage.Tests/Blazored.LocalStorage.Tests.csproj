@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyOriginatorKeyFile>..\..\src\Blazored.LocalStorage\Blazored.LocalStorage.snk</AssemblyOriginatorKeyFile>
+
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\src\Blazored.LocalStorage\Blazored.LocalStorage.snk">
+      <Link>Blazored.LocalStorage.snk</Link>
+    </None>
+  </ItemGroup>
+
+</Project>
